@@ -43,8 +43,8 @@ executable structured-haskell-mode
   main-is:           Main.hs
   ghc-options:       -O2 -Wall
   hs-source-dirs:    src
-  build-depends:     base >= 4 && < 5
-                   , haskell-src-exts >= 1.18
+  build-depends:     base
+                   , haskell-src-exts
                    , text
-                   , descriptive >= 0.7 && < 0.10
+                   , descriptive
                    , ghc-prim
